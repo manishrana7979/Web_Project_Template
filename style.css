@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav ol{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+.navbar li{
+    color: white;   
+}
+
+.navbar ol :hover{
+    padding: 10px;
+    background-color: #DB597D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#search{
+    height: 50px;
+    width: 50px;
+}
+
+#logo{
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+/* First Slid.............  */
+
+.First_Slid{
+    padding: 50px;
+    height: 600px;
+    /* width: 100vw; */
+    background: url('bg1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.First_Slid .text{
+    padding: 50px;
+}
+
+.live h1{
+    color: rgb(200, 13, 135);
+    font-size: 100px;
+    padding: 10px 0px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.live p{
+    font-size: 20px;
+}
+
+.live button{
+    color: white;
+    background-color: rgb(214, 85, 226);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+.live button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 14, 138);
+}
+
+.First_Slid img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 10px 10px #DB597D;
+}
+
+
+/* Second Slid................ */
+
+.second_slid{
+    height: 700px;
+    /* width: 100vw; */
+    background-color: rgb(26, 26, 26);
+}
+.music_tour{
+    padding: 0px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.music_tour h1{
+    color: white ;
+    padding: 10px;
+    font-size: 50px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.music_tour p{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    /* width: 500px; */
+
+}
+
+.imgCollection{
+    display: flex;
+    padding: 10px;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    /* object-fit: cover; */
+}
+
+.imgCollection .first{
+    width: 400px;
+    height: 400px;
+    background: url('PIC1.png');
+    background-size: cover;
+    box-shadow: 20px 20px #DB597D;
+    
+}
+
+.imgCollection .first:hover{
+    width: 450px;
+    height: 450px;
+    background: url('PIC1.png');
+    background-size: cover;
+    box-shadow: 20px 20px  rgb(26, 26, 26);;
+    
+}
+
+@media screen {
+    
+}
+
+.imgCollection .sec{
+    width: 400px;
+    height: 400px;
+    background: url('PIC2.png');
+    background-size: cover;
+    box-shadow: 20px 20px #FF914D;
+}
+
+.imgCollection .sec:hover{
+    width: 450px;
+    height: 450px;
+    background: url('PIC2.png');
+    background-size: cover;
+    box-shadow: 20px 20px  rgb(26, 26, 26);;
+}
+
+.imgCollection .third{
+    width: 400px;
+    height: 400px;
+    background: url('PIC3.png');
+    background-size: cover;
+    box-shadow: 20px 20px white;
+}
+
+.imgCollection .third:hover{
+    width: 450px;
+    height: 450px;
+    background: url('PIC3.png');
+    background-size: cover;
+    box-shadow: 20px 20px  rgb(26, 26, 26);
+}
+/* Thrid Slid................ */
+
+.third_slid{
+    height: 700px;
+    /* width: 100vw; */
+    background: url('bg2.png');
+    background-size: cover;
+    
+}
+.thirdSlid{
+    padding: 50px;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+}
+
+.seconImg img{
+    border-radius: 50%;
+    padding: 50px;
+    box-shadow: 10px 10px #DB597D;
+}
+
+.thirdSlid .text2{
+    color: bisque;
+    padding: 50px;
+}
+.text2 h1{
+    font-size: 50px;
+    padding: 10px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text2 p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* Forth Slid................ */
+
+.forth_slid{
+    height: 700px;
+    background: url('bg3.png');
+    background-size: cover;
+    padding: 50px;
+}
+.forthSlid{
+    display: flex;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.text3 h1{
+    font-size: 60px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text3 p{
+    padding: 20px 0px;
+    /* margin: 30px; */
+    font-size: 30px;
+}
+
+.forthImg img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px #DB597D;
+}
+
+/* Fifth Slid................ */
+
+.fifth_slid{
+    height: 700px;
+    background: url('bg4.png');
+    background-size: cover;
+    
+}
+.fithSlid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: rgb(224, 79, 104);
+}
+.fifImg img{
+    border-radius: 50%;
+}
+.text4{
+    padding: 50px 80px;
+    
+}
+
+.text4 h1{
+    font-size: 50px;
+    padding: 40px 20px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text4 p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+/* Sixth Slid................ */
+
+.sixth_slid{
+    height: 300px;
+    color: bisque;
+    background-color: #13151B;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.text5 h1{
+    font-size: 50px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text5 p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+.fistCount{
+    
+    width: 100px;
+    height: 100px;
+}
+.secCount{
+   
+    width: 100px;
+    height: 100px;
+}
+.thirdCount{
+   
+    width: 100px;
+    height: 100px;
+}
+.counter span{
+    font-size: x-large;
+}
+
+
+/* Seven Slid...... */
+
+.seventh_slid{
+    /* width: 100vw; */
+    /* padding: 0px 100px; */
+    height: 700px;
+    background-color: #FAEBD7;
+}
+.sevenSlid{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 100px 80px 60px 80px;
+}
+.sevenFistImg img{
+    height: 400px;
+    width: 300px;
+   object-fit: cover;
+}
+.sevenSecImg img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+.sevenThirdImg img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+.text6 p{
+    padding: 0px 200px;
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Eight Slid................ */
+
+.eight_Slid{
+    padding: 100px;
+    text-align: center;
+    color: #FAEBD7;
+    background-color: #DB597D;
+}
+
+.subscribe h1{
+    font-size: 60px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subscribe p{
+    padding: 20px 300px;
+    font-size: 20px;
+}
+
+.subscribe input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.subscribe span{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* Nine Sild............... */
+
+.ninth_Sild{
+    color: #FAEBD7;
+    background-color: #13151B;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* text-align: center; */
+}
+.musicUrban{
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    /* background-color: #6c0925; */
+}
+.musicUrban h1{
+    padding: 20px 0px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.socialMedia ol{
+    padding: 20px 0px;
+   display: flex;
+   justify-content:space-between;
+   list-style: none;
+   font-size: 30px;
+}
+.about{
+    width: 200px;
+    height: 200px;
+    /* background-color: #6c0925; */
+    
+}
+.about ol{
+    list-style: none;
+}
+.about li{
+    padding: 5px 0px;
+}
+.about h1{
+    padding: 20px 0px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.services{
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(255, 0, 0); */
+}
+.services ol{
+    list-style: none;
+}
+
+.services li{
+    padding: 5px 0px;
+}
+
+.services h1{
+    padding: 20px 0px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.other{
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+}
+.other ol{
+    list-style: none;
+}
+.other li{
+    padding: 5px 0px;
+}
+.other h1{
+    padding: 20px 0px;
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
